@@ -38,7 +38,7 @@ public class StarConstellations extends Application {
         GraphicsContext gc = canvas.getGraphicsContext2D();
         scene.setFill(javafx.scene.paint.Color.BLUE);
 
-        // YOUR CODE STARTS HERE
+
 
         Pane pane = new Pane();
 
@@ -102,7 +102,6 @@ public class StarConstellations extends Application {
         // add everything to the root
         root.getChildren().add(pane);
 
-        // YOUR CODE STOPS HERE
         primaryStage.show();
     }
 
